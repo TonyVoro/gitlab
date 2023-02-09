@@ -11,16 +11,18 @@ body {
 .top-header {
     display: flex;
     position: sticky;
-    justify-content: space-between;
     height: 80px;
     padding-left: 100px;
     padding-right: 100px;
+    align-items: center;
+    color: #74717a;
 }
 
 ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
 }
 
 li {
@@ -43,6 +45,11 @@ li {
     line-height: 20px;
 }
 
+.buttons {
+    position: relative;
+    left: 430px;
+}
+
 .trial-btn {
     background-color: #171321;
     border: 1px solid #171321;
@@ -57,7 +64,23 @@ li {
     font-size: medium;
 }
 
+.sign-in {
+    background-color: #fff;
+    border: none;
+    padding: 15px 32px;
+    font-family: sans-serif;
+    color: #74717a;
+    font-size: medium;
+}
+
 .logo {
     display: flex;
     fill: none;
+}
+
+.main-txt {
+    font-size: 65px;
+    line-height: 72px;
+    font-weight: 600;
+    letter-spacing: -2.1px;
 }
